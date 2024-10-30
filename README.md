@@ -59,3 +59,35 @@ Congratulations, Sam! ```
 If you provide an incorrect answer, the game will respond like this: ```
 '145' is wrong answer ;(. Correct answer was '175'.
 Let's try again, Sam!``` 
+
+
+## Brain GCD
+
+### Installation
+
+To install the game, run the following command:
+```pip install brain-gcd ```
+After the installation, you can start the game using:
+``` brain-gcd ```
+
+### Example Gameplay ```
+
+brain-gcd
+
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+Find the greatest common divisor of given numbers.
+Question: 25 50
+Your answer: 25
+Correct!
+Question: 100 52
+Your answer: 4
+Correct!
+Question: 3 9
+Your answer: 3
+Correct!
+Congratulations, Sam! ``` 
+If you provide an incorrect answer, the game will respond like this: ```
+'1' is wrong answer ;(. Correct answer was '25'.
+Let's try again, Sam!``` 
