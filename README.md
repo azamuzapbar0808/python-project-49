@@ -30,3 +30,32 @@ Congratulations, Aza! ```
 If you provide an incorrect answer, the game will respond like this: ```
 'yes' is wrong answer ;(. Correct answer was 'no'.
 Let's try again, Aza! ``` 
+
+## Brain Even Calc
+
+### Installation
+
+To install the game, run the following command:
+```pip install brain-calc ```
+After the installation, you can start the game using:
+``` brain-calc ```
+
+### Example Gameplay ```
+
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+What is the result of the expression?
+Question: 4 + 10
+Your answer: 14
+Correct!
+Question: 25 - 11
+Your answer: 14
+Correct!
+Question: 25 * 7
+Your answer: 175
+Correct!
+Congratulations, Sam! ``` 
+If you provide an incorrect answer, the game will respond like this: ```
+'145' is wrong answer ;(. Correct answer was '175'.
+Let's try again, Sam!``` 
