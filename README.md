@@ -124,3 +124,28 @@ Congratulations, Sam! ```
 If you provide an incorrect answer, the game will respond like this: ```
 '1' is wrong answer ;(. Correct answer was '15'.
 Let's try again, Sam!``` 
+
+## Brain Prime
+
+### Installation
+
+To install the game, run the following command:
+```pip install brain-prime ```
+After the installation, you can start the game using:
+``` brain-prime ```
+
+### Example Gameplay ```
+
+brain-prime
+
+
+Welcome to the Brain Games!
+May I have your name? Sam
+Hello, Sam!
+Answer "yes" if given number is prime. Otherwise answer "no".
+Question: 7
+Your answer: yes
+Correct! ``` 
+If you provide an incorrect answer, the game will respond like this: ```
+'no' is wrong answer ;(. Correct answer was 'yes'.
+Let's try again, Sam!``` 
