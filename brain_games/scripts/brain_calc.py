@@ -25,7 +25,7 @@ def main():
         print(f'Question: {a} {operation} {b}')
         answer = prompt.string('Your answer: ')
 
-        if answer.isdigit() and int(answer) == correct_answer:
+        if answer.lstrip('-').isdigit() and int(answer) == correct_answer:
             print('Correct!')
             correct_answers += 1
         else:
