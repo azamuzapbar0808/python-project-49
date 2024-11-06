@@ -7,11 +7,16 @@ def launch_game(game_module):
     print(f"Hello, {name}!")
 
     game_descriptions = {
-        'brain_games.games.calc_game': "What is the result of the expression?",
-        'brain_games.games.even_game': 'Answer "yes" if the number is even, otherwise answer "no".',
-        'brain_games.games.gcd_game': 'Find the greatest common divisor of given numbers.',
-        'brain_games.games.progression_game': 'What number is missing in the progression?',
-        'brain_games.games.prime_game': 'Answer "yes" if given number is prime. Otherwise answer "no".'
+        'brain_games.games.calc_game':
+            "What is the result of the expression?",
+        'brain_games.games.even_game': 'Answer "yes" if the number is even, '
+                                       'otherwise answer "no".',
+        'brain_games.games.gcd_game':
+            'Find the greatest common divisor of given numbers.',
+        'brain_games.games.progression_game':
+            'What number is missing in the progression?',
+        'brain_games.games.prime_game':
+            'Answer "yes" if given number is prime. Otherwise answer "no".'
     }
 
     description = game_descriptions.get(game_module.__name__)
@@ -26,7 +31,8 @@ def launch_game(game_module):
             print("Correct!")
             correct_answers += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{answer}' is wrong answer ;(. "
+                  f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
     print(f"Congratulations, {name}!")
