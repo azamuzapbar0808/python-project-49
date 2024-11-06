@@ -2,8 +2,9 @@
 
 [![Actions Status](https://github.com/azamuzapbar0808/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/azamuzapbar0808/python-project-49/actions) <a href="https://codeclimate.com/github/azamuzapbar0808/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/b70277d712a3666230f2/maintainability" /></a>
 
-## Brain Even Game
 
+## Brain Even Game
+[![Brain Prime Gameplay](https://asciinema.org/a/8tuf1VYDOIlJw1M2f9RJhoXJ2.svg)](https://asciinema.org/a/8tuf1VYDOIlJw1M2f9RJhoXJ2)
 ### Installation
 
 To install the game, run the following command:
@@ -33,7 +34,7 @@ If you provide an incorrect answer, the game will respond like this: ```
 Let's try again, Aza! ``` 
 
 ## Brain Even Calc
-
+[![Brain Prime Gameplay](https://asciinema.org/a/u4fqdG3pzgbcOGPIzPAvW0l79.svg)](https://asciinema.org/a/u4fqdG3pzgbcOGPIzPAvW0l79)
 ### Installation
 
 To install the game, run the following command:
@@ -63,7 +64,7 @@ Let's try again, Sam!```
 
 
 ## Brain GCD
-
+[![Brain Even Gameplay](https://asciinema.org/a/4SY8JNoUTzGlV18TEAohmYjJN.svg)](https://asciinema.org/a/4SY8JNoUTzGlV18TEAohmYjJN)
 ### Installation
 
 To install the game, run the following command:
@@ -96,7 +97,7 @@ Let's try again, Sam!```
 
 
 ## Brain Progression
-
+[![Brain Even Gameplay](https://asciinema.org/a/ZGEDnQebzwADS6ibqVrKOa8dF.svg)](https://asciinema.org/a/ZGEDnQebzwADS6ibqVrKOa8dF)
 ### Installation
 
 To install the game, run the following command:
@@ -127,7 +128,7 @@ If you provide an incorrect answer, the game will respond like this: ```
 Let's try again, Sam!``` 
 
 ## Brain Prime
-
+[![Brain Even Gameplay](https://asciinema.org/a/gHmQDKKuiB3GIT89HqHz4Mv1N.svg)](https://asciinema.org/a/gHmQDKKuiB3GIT89HqHz4Mv1N)
 ### Installation
 
 To install the game, run the following command:
