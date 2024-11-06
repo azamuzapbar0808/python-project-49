@@ -8,7 +8,7 @@ def launch_game(game_module):
 
     game_descriptions = {
         'brain_games.games.calc_game': "What is the result of the expression?",
-        'brain_games.games.even_game': "Answer 'yes' if the number is even, otherwise answer 'no'.",
+        'brain_games.games.even_game': 'Answer "yes" if the number is even, otherwise answer "no".',
         'brain_games.games.gcd_game': 'Find the greatest common divisor of given numbers.',
         'brain_games.games.progression_game': 'What number is missing in the progression?',
         'brain_games.games.prime_game': 'Answer "yes" if given number is prime. Otherwise answer "no".'
