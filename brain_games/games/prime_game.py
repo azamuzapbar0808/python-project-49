@@ -10,7 +10,8 @@ def is_prime(number):
     return True
 
 
-def generate_round():
+def get_question_and_answer():
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     a = random.randint(1, 100)
     question = str(a)
     correct_answer = "yes" if is_prime(a) else "no"

@@ -1,30 +1,12 @@
 import prompt
+from brain_games.cli import welcome_user
 
 
 def launch_game(game_module):
-    print("Welcome to the Brain Games!")
-    name = prompt.string("May I have your name? ")
-    print(f"Hello, {name}!")
-
-    game_descriptions = {
-        'brain_games.games.calc_game':
-            "What is the result of the expression?",
-        'brain_games.games.even_game': 'Answer "yes" if the number is even, '
-                                       'otherwise answer "no".',
-        'brain_games.games.gcd_game':
-            'Find the greatest common divisor of given numbers.',
-        'brain_games.games.progression_game':
-            'What number is missing in the progression?',
-        'brain_games.games.prime_game':
-            'Answer "yes" if given number is prime. Otherwise answer "no".'
-    }
-
-    description = game_descriptions.get(game_module.__name__)
-    print(description)
-
+    name = welcome_user()
     correct_answers = 0
     while correct_answers < 3:
-        question, correct_answer = game_module.generate_round()
+        question, correct_answer = game_module.get_question_and_answer()
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ")
         if answer == str(correct_answer):

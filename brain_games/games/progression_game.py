@@ -1,7 +1,8 @@
 import random
 
 
-def generate_round():
+def get_question_and_answer():
+    print('What number is missing in the progression?')
     start = random.randint(1, 50)
     step = random.randint(1, 10)
     length = random.randint(5, 10)
