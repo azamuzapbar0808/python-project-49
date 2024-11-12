@@ -3,6 +3,7 @@ from brain_games.cli import welcome_user
 
 
 def launch_game(game_module):
+    print(game_module.DESCRIPTION)
     name = welcome_user()
     correct_answers = 0
     while correct_answers < 3:
